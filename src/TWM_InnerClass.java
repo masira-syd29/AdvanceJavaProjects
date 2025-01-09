@@ -16,6 +16,7 @@ public class TWM_InnerClass {
         obj.see();
 
         I.N obj1 = new I.N(); //In order to access this syntax you will have to make the N class Static with static keyword
+        //I.N obj1 = obj.new N(); Non Static Syntax
         obj1.config();
     }
 }
